@@ -1,0 +1,207 @@
+
+#container {
+    width:1200px;
+    background-color:white;
+    height:auto; 
+/*    border:3px solid grey; */
+    margin:25px auto;
+}
+
+h1 a{ font-size: 50px;
+    font-weight:bolder;
+    color:#861BBF;
+    text-decoration: none;
+    font-family:cursive    
+}
+
+#searchbox {
+    float:right;
+    width:400px;
+    background:linear-gradient(#E4F2B9,#B7E953);
+    background:-webkits-linear-gradient(#E4F2B9,#B7E953);
+    background:-moz-linear-gradient(#E4F2B9,#B7E953);
+    background:-o-linear-gradient(#E4F2B9,#B7E953);
+    background:-ms-linear-gradient(#E4F2B9,#B7E953);
+    height:60px;
+    padding:20px 20px 0px 20px;
+    margin-top:10px;
+    
+}
+
+#brand {
+    float:left;
+}
+
+#header {
+/*
+    border-style:solid;
+    border-color: grey;
+    border-width: 1px;
+*/
+    padding:5px;
+    margin:auto;
+    height:95px
+}
+
+.text {
+    float:left;
+    width:200px;
+    padding:5px;
+    font-size:18px;
+    color:#E36A03;
+    background: white url(images/SEARCH.png) 180px center no-repeat;
+}
+
+
+
+.submit {
+    float:right;
+    background:#A751D6;
+    padding:5px;
+    font-weight: bold;
+    color:white;
+    font-size:17px
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+/*    background-color:darkgray*/
+}
+
+#menu_list {
+    list-style: none;
+}
+
+#menu {
+    padding:10px;
+    height:65px;
+    background:linear-gradient(#F8F594,#D5D533);
+    background:-webkits-linear-gradient(#F8F594,#D5D533);
+    background:-o-linear-gradient(#F8F594,#D5D533);
+    background:-moz-linear-gradient(#F8F594,#D5D533);
+    background:-ms-linear-gradient(#F8F594,#D5D533);
+    width:auto;
+    margin-top:5px
+}
+
+#menu ul li:last-child{
+    border-right:none;
+}
+#menu ul li {   
+    float:left;
+    padding:0px 40px;
+    text-decoration:none;
+    border-right:1px solid #5d12e7;
+    height:35px;
+    line-height: 35px
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#5d12e7;
+    font-size:21px;
+    line-height: 3px;
+    -webkits-transition: font-size 0.2s ease;
+    -moz-transition: font-size 0.2s ease;
+    -o-transition: font-size 0.2s ease;
+    -ms-transition: font-size 0.2s ease;
+    transition: font-size 0.2s ease;
+}
+
+#menu ul li a:hover,#menu ul li a.active{
+    font-size:25px;
+    color: #b314db;
+    font-weight:bold;
+}
+#introduction {
+    background:linear-gradient(#E5F2BB,#B7E952);
+    background:-webkits-linear-gradient(#E5F2BB,#B7E952);
+    background:-o-linear-gradient(#E5F2BB,#B7E952);
+    background:-moz-linear-gradient(#E5F2BB,#B7E952);
+    background:-ms-linear-gradient(#E5F2BB,#B7E952);
+    padding:40px;
+    height:auto;
+/*    border:1px solid ;*/
+    margin:16px 0px;
+}
+
+#introduction h2{
+    font-size:48px;
+    color:#316901;
+    font-weight:normal;
+}
+
+#introduction p{
+    font-size:28px;
+    color:#628F19;
+    text-align: justify
+}
+
+.sidebar{
+    height:530px;
+    width:510px;
+    border:3px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h2{
+    color:#B314DB;
+    font-size: 38px
+}
+
+.sidebar ul li{
+    padding:10px;
+    list-style-image: url(images/arrow.png);
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size:25px;
+    color:#5D12E7;
+    
+    -webkits-transition: font-size 0.2s ease;
+    -moz-transition: font-size 0.2s ease;
+    -o-transition: font-size 0.2s ease;
+    -ms-transition: font-size 0.2s ease;
+    transition: font-size 0.2s ease;
+}
+
+.sidebar ul li a:hover{
+    font-size:27px;
+    color:#B314DB;
+    font-weight:bold
+}
+#left_sidebar{
+    float:left;
+    
+}
+#right_sidebar{
+    float:right;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+.footer {
+    background: linear-gradient(#f6f390,#d5d533);
+    background: -webkits-linear-gradient(#f6f390,#d5d533);
+    background: -o-linear-gradient(#f6f390,#d5d533);
+    background: -moz-linear-gradient(#f6f390,#d5d533);
+    background: -ms-linear-gradient(#f6f390,#d5d533);
+    height: 95px;
+    padding:10px 50px;
+    margin: 18px 0;
+}
+
+.footer div{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left:475px;
+    color:#A751D6
+}
